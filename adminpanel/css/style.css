@@ -1,0 +1,13 @@
+body {
+	background-color:#7f8c8d;
+}
+#wrapper {
+	width: 800px;
+	height: 100%;
+	margin: 0 auto; /* left and right margins set to auto */
+}
+#logo {
+	width:800px;
+	height:130px;
+	position:static;
+}

@@ -1,0 +1,5 @@
+Access Levels
+
+0 - User, no servers
+1 - User, servers
+2 - Supermod
