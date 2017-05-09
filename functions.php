@@ -4,8 +4,7 @@ require_once("database_config.php");
 function isAdmin( $username, $mysqli ) {
 	$row = userQuery("SELECT ACCESS_LVL FROM customers WHERE username = ?", $mysqli, $username);
 
-	if ($row['ACCESS_LVL'] >= 2) return true;
-	else return false;
+	return ($row['ACCESS_LVL'] >= 2);
 }
 
 function isAdminVerbose( $username, $mysqli) {
